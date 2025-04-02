@@ -1,0 +1,19 @@
+.page {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 0 148px; */
+  background-color: #2a2c2f;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.page__logo {
+  margin-top: 34px;
+}
+
+.page__content {
+  margin: 0 302px 0 148px;
+}
