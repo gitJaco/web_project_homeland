@@ -1,7 +1,11 @@
 .content {
-  width: 830px;
+  /* width: 830px; */
   /* width: calc(100% - 450px); */
   /* align-self: flex-start; */
+}
+
+.content__intro {
+  margin: 0 302px 0 148px;
 }
 
 .content__title {
@@ -49,8 +53,22 @@
   }
 } */
 
+.content__photo-grid {
+  margin: 118px 53px 0 43px;
+}
+
+/* .content__places {
+  margin: 92px 145px 0 148px;
+} */
+
 @media (max-width: 1024px) {
   .content {
+    margin: 0 24px;
+    width: calc(100% - 48px);
+  }
+
+  .intro {
+    /* margin: 0; */
     margin: 0 24px;
     width: calc(100% - 48px);
   }
