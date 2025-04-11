@@ -68,9 +68,10 @@
   }
 
   .intro {
-    /* margin: 0; */
-    margin: 0 24px;
-    width: calc(100% - 48px);
+    margin: 0;
+    /* margin: 0 24px;
+    width: calc(100% - 48px); */
+    width: 100%;
   }
 
   .content__title {
