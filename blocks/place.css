@@ -37,7 +37,7 @@
   margin-top: 48px;
   padding: 13px 20px;
   border-radius: 4px;
-  background: linear-gradient(to right, #0278fe, #003a7b);
+  background-image: linear-gradient(to right, #0278fe, #003a7b);
   border: none;
   color: #ffffff;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
