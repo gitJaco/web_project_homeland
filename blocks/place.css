@@ -44,6 +44,7 @@
 }
 
 .place__button:hover {
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
   opacity: 0.5;
 }
 
