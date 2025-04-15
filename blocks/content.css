@@ -84,6 +84,16 @@
 
 @media (max-width: 544px) {
   .content {
+    margin: 0;
+    width: 100%;
+  }
+
+  .content__intro {
+    margin: 0 16px;
+    width: calc(100% - 32px);
+  }
+
+  .content__photo-grid {
     margin: 0 16px;
     width: calc(100% - 32px);
   }

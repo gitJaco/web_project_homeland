@@ -43,8 +43,8 @@
   margin-top: 48px;
   padding: 13px 20px;
   border-radius: 4px;
-  font-size: 16px;
-  font-weight: 600;
+  /* font-size: 16px;
+  font-weight: 600; */
   background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
   border: none;
   color: #ffffff;
@@ -154,9 +154,13 @@
   }
 
   .place__title {
-    margin: 0;
+    margin: 0 16px;
     font-size: 32px;
     line-height: 35px;
+  }
+
+  .place__artist-container {
+    margin: 0 16px;
   }
 
   .place__url-heading {
@@ -170,6 +174,7 @@
   }
 
   .place__paragraph-container {
+    margin: 0 16px;
     grid-column: 1/2;
     grid-row: 4/5;
   }
@@ -179,7 +184,7 @@
   }
 
   .place__button {
-    margin-top: 30px;
-    width: 100%;
+    margin: 30px 16px 0;
+    width: calc(100% - 32px);
   }
 }
